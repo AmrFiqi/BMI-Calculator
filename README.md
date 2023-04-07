@@ -1,3 +1,11 @@
+# DISCLAIMER
+This app UI and readme is created by Angela as a part of the course "The Complete iOS App Development".
+However the code is done by me (Amr Fiqi)
+
+
+![](https://github.com/AmrFiqi/BMI-Calculator/blob/master/BMI_Calculator.gif)
+
+
 
 ![App Brewery Banner](Documentation/AppBreweryBanner.png)
 
