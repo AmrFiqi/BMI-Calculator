@@ -15,10 +15,13 @@ class ResultViewController: UIViewController {
     
     @IBOutlet var bmiLabel: UILabel!
     @IBOutlet var adviceLabel: UILabel!
+    @IBOutlet var backgroundColor: UIImageView!
     
     // MARK: - Variables
     
     var bmiValue: String?
+    var bmiAdvice: String?
+    var bmiColor: UIColor?
     
     // MARK: - Class Methods
     
@@ -34,5 +37,8 @@ class ResultViewController: UIViewController {
 
     func updateUI() {
         bmiLabel.text = bmiValue
+        adviceLabel.text = bmiAdvice
+        backgroundColor.backgroundColor = bmiColor
+        
     }
 }
